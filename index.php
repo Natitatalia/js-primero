@@ -10,6 +10,7 @@
     <h1>hola mundo</h1>
     <h2>hola mundo</h2>
     <h1>hola mundo</h1>
+    <img src="images/Linda.jpg">
     <script src="scripts/main.js"></script>
 </body>
 </html>
