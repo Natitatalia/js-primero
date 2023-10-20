@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>hola mundo</h1>
-    <scritp src="scripts/main.js"></scritp>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
