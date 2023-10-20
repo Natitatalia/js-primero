@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>hola mundo</h1>
+    <h1>hola mundo</h1>
     <h2>hola mundo</h2>
     <h1>hola mundo</h1>
     <script src="scripts/main.js"></script>
