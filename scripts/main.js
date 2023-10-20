@@ -16,3 +16,15 @@ imagen.onclick = () => {
 		imagen.setAttribute("src", "images/Linda.jpg");
 	}
 };
+
+let NombreUsuario = "";
+
+AsignarUsuario = () => {
+	NombreUsuario = prompt("ingresa tu Nombre")
+}
+
+
+MyBoton = document.querySelector("button");
+MyBoton.onclick = function () {
+	AsignarUsuario ();
+};
