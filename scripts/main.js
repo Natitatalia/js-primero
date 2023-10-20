@@ -2,6 +2,7 @@ let titulo = document.querySelector("h1");
 titulo.textContent="carajito"
 
 
-document.querySelector("h2").onclick() = () => {
+let tituloh3 = document.querySelector("h2");
+tituloh3.onclick = () => {
 	alert( "auch no mas" );
 };
