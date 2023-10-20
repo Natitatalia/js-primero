@@ -10,7 +10,7 @@ tituloh3.onclick = () => {
 let imagen = document.querySelector("img");
 imagen.onclick = () => {
 	let imagenAttrSrc = imagen.getAttribute("src");
-	if( imagenAttrSrc === "images/Linda.png" ){
+	if( imagenAttrSrc === "images/Linda.jpg" ){
 		imagen.setAttribute("src", "images/Linda2.jpg");
 	}else {
 		imagen.setAttribute("src", "images/Linda.jpg");
