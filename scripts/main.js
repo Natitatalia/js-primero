@@ -7,8 +7,8 @@ tituloh3.onclick = () => {
 	alert( "auch no mas" );
 };
 
+let imagen = document.querySelector("img");
 imagen.onclick = () => {
-	let imagen = document.querySelector("img");
 	let imagenAttrSrc = imagen.getAttribute("src");
 	if( imagenAttrSrc === "images/Linda.jpg" ){
 		imagen.setAttribute("src", "images/Linda2.jpg");
