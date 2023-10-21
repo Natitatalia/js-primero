@@ -21,9 +21,15 @@ imagen.onclick = () => {
 AsignarUsuario = () => {
 	NombreUsuario = prompt("ingresa tu Nombre");
 	localStorage.setItem("nombre", NombreUsuario);
-	titulo.textContent = "hola"+localStorage.getItem("nombre");
+	titulo.textContent = "hola "+localStorage.getItem("nombre");
 };
 
+
+if(localStorage.getItem("nombre")){
+	titulo.textContent = "hola "+localStorage.getItem("nombre");
+}else{
+	AsignarUsuario ();
+};
 
 let MyBoton = document.querySelector("button");
 MyBoton.onclick = function () {
