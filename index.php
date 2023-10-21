@@ -12,6 +12,7 @@
     <h1>hola mundo</h1>
     <img src="images/Linda.jpg">
     <button>ingresar usuario</button>
+    <button id="btn-borrar">borrar usuario </button>
     <script src="scripts/main.js"></script>
 </body>
 </html>

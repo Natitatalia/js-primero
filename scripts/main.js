@@ -35,3 +35,8 @@ let MyBoton = document.querySelector("button");
 MyBoton.onclick = function () {
 	AsignarUsuario ();
 };
+
+let MyOtroBoton = document.getElementById("btn-borrar");
+MyOtroBoton.onclick = () => {
+	localStorage.clear();
+}
