@@ -7,8 +7,8 @@ tituloh3.onclick = () => {
 	alert( "auch no mas" );
 };
 
-let imagen = document.querySelector("img");
 imagen.onclick = () => {
+	let imagen = document.querySelector("img");
 	let imagenAttrSrc = imagen.getAttribute("src");
 	if( imagenAttrSrc === "images/Linda.jpg" ){
 		imagen.setAttribute("src", "images/Linda2.jpg");
@@ -17,14 +17,15 @@ imagen.onclick = () => {
 	}
 };
 
-let NombreUsuario = "";
 
 AsignarUsuario = () => {
-	NombreUsuario = prompt("ingresa tu Nombre")
-}
+	NombreUsuario = prompt("ingresa tu Nombre");
+	LocalStorage.setItem(NombreUsuario);
+	titulo.textContent = "hola "+NombreUsuario
+};
 
 
-MyBoton = document.querySelector("button");
+let MyBoton = document.querySelector("button");
 MyBoton.onclick = function () {
 	AsignarUsuario ();
 };
