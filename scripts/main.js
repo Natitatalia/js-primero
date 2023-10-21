@@ -20,8 +20,8 @@ imagen.onclick = () => {
 
 AsignarUsuario = () => {
 	NombreUsuario = prompt("ingresa tu Nombre");
-	LocalStorage.setItem(NombreUsuario);
-	titulo.textContent = "hola "+NombreUsuario
+	localStorage.setItem("nombre", NombreUsuario);
+	titulo.textContent = "hola"+localStorage.getItem("nombre");
 };
 
 
