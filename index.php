@@ -15,7 +15,7 @@
     <h1 id="sessionTag">sesion no iniciada</h1>
     <button>ingresar usuario</button>
     <button id="btn-borrar">borrar usuario </button>
-    <button id="btn-iniciarSesion">borrar usuario </button>
+    <button id="btn-iniciarSesion">iniciar sesion </button>
     <script src="scripts/main.js"></script>
 </body>
 </html>

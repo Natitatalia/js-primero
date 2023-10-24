@@ -46,7 +46,7 @@ MyOtroBoton.onclick = () => {
 }
 
 let mybotonConectar = document.getElementById("Btn-iniciarSesion");
-mybotonConectar.onclick() => {
+mybotonConectar.onclick = () => {
 	sesionStorage.setItem = ("nombre" = "sesion iniciada")
 	document.getElementById(sessionTag) = sesionStorage(getItem("nombre"))
 }
