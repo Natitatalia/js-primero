@@ -44,3 +44,9 @@ MyOtroBoton.onclick = () => {
 	titulo.textContent ="hola ingresa";
 	document.getElementById("nombreUsu").innerHTML = "holas Conectate";
 }
+
+let mybotonConectar = document.getElementById("Btn-iniciarSesion");
+mybotonConectar.onclick() => {
+	sesionStorage.setItem = ("nombre" = "sesion iniciada")
+	document.getElementById(sessionTag) = sesionStorage(getItem("nombre"))
+}

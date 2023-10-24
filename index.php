@@ -12,8 +12,10 @@
     <h1>hola mundo</h1>
     <img src="images/Linda.jpg">
     <h4 id="nombreUsu">hola</h4>
+    <h1 id="sessionTag">sesion no iniciada</h1>
     <button>ingresar usuario</button>
     <button id="btn-borrar">borrar usuario </button>
+    <button id="btn-iniciarSesion">borrar usuario </button>
     <script src="scripts/main.js"></script>
 </body>
 </html>
