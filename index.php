@@ -10,8 +10,8 @@
     <h1>hola mundo</h1>
     <h2>hola mundo</h2>
     <h1>hola mundo</h1>
-    <h4 id="nombreUsu">hola</h4>
     <img src="images/Linda.jpg">
+    <h4 id="nombreUsu">hola</h4>
     <button>ingresar usuario</button>
     <button id="btn-borrar">borrar usuario </button>
     <script src="scripts/main.js"></script>
