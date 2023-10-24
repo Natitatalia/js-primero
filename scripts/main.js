@@ -22,7 +22,7 @@ AsignarUsuario = () => {
 	NombreUsuario = prompt("ingresa tu Nombre");
 	localStorage.setItem("nombre", NombreUsuario);
 	titulo.textContent = "hola "+localStorage.getItem("nombre");
-	document.getElementById("nombreUsu").innerHTML = "holas 5";
+	document.getElementById("nombreUsu").textContent = "hola "+localStorage.getItem("nombre");
 };
 
 
@@ -41,5 +41,5 @@ let MyOtroBoton = document.getElementById("btn-borrar");
 MyOtroBoton.onclick = () => {
 	localStorage.clear();
 	titulo.textContent ="hola ingresa";
-	document.getElementById("nombreUsu").innerHTML = "holas 3";
+	document.getElementById("nombreUsu").innerHTML = "holas Conectate";
 }
