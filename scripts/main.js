@@ -22,7 +22,7 @@ AsignarUsuario = () => {
 	NombreUsuario = prompt("ingresa tu Nombre");
 	localStorage.setItem("nombre", NombreUsuario);
 	titulo.textContent = "hola "+localStorage.getItem("nombre");
-	document.getElementById("nombreUsu").innerHTML = "holas 3";
+	document.getElementById("nombreUsu").innerHTML = "holas 5";
 };
 
 
