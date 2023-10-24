@@ -21,13 +21,13 @@ imagen.onclick = () => {
 AsignarUsuario = () => {
 	NombreUsuario = prompt("ingresa tu Nombre");
 	localStorage.setItem("nombre", NombreUsuario);
-	document.getElementById("nombreUsu").textContent = "hola "+localStorage.getItem("nombre");
 	titulo.textContent = "hola "+localStorage.getItem("nombre");
 };
 
 
 if(localStorage.getItem("nombre")){
 	titulo.textContent = "hola "+localStorage.getItem("nombre");
+	document.getElementById("nombreUsu").textContent = "hola "+localStorage.getItem("nombre");
 }else{
 	AsignarUsuario ();
 };
