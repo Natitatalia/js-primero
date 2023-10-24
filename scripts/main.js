@@ -41,4 +41,5 @@ let MyOtroBoton = document.getElementById("btn-borrar");
 MyOtroBoton.onclick = () => {
 	localStorage.clear();
 	titulo.textContent ="hola ingresa";
+	document.getElementById("nombreUsu").innerHTML = "holas 3";
 }
