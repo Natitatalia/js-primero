@@ -1,6 +1,8 @@
 let titulo = document.querySelector("h1");
 titulo.textContent="carajito"
 
+let tituloP = document.querySelector("h4");
+titulo.textContent="carajito"
 
 let tituloh3 = document.querySelector("h2");
 tituloh3.onclick = () => {
@@ -21,7 +23,7 @@ imagen.onclick = () => {
 AsignarUsuario = () => {
 	NombreUsuario = prompt("ingresa tu Nombre");
 	localStorage.setItem("nombre", NombreUsuario);
-	document.getElementById("nombreUsu").textContent = "hola "+localStorage.getItem("nombre");
+	tituloP.textContent = "hola "+localStorage.getItem("nombre");
 	titulo.textContent = "hola "+localStorage.getItem("nombre");
 };
 
