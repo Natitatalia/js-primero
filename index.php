@@ -14,6 +14,7 @@
     <button>ingresar usuario</button>
     <button id="btn-borrar">borrar usuario </button>
     <script src="scripts/main.js"></script>
+    <h1 id="nombreUsu">hola<h1>
 </body>
 </html>
 
